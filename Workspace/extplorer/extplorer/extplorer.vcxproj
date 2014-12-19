@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F7FD8DB3-E6E0-41DF-AA80-FD2F1A4425F0}</ProjectGuid>
     <RootNamespace>extplorer</RootNamespace>
+    <ProjectName>extplorer_core</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,6 +65,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="disk_operation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="disk_operation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

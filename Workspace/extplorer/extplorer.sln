@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extplorer", "extplorer\extplorer.vcxproj", "{F7FD8DB3-E6E0-41DF-AA80-FD2F1A4425F0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "window", "window\window.vcxproj", "{3F9108A4-D764-49D0-8C87-B62E168AFF72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{F7FD8DB3-E6E0-41DF-AA80-FD2F1A4425F0}.Debug|Win32.Build.0 = Debug|Win32
 		{F7FD8DB3-E6E0-41DF-AA80-FD2F1A4425F0}.Release|Win32.ActiveCfg = Release|Win32
 		{F7FD8DB3-E6E0-41DF-AA80-FD2F1A4425F0}.Release|Win32.Build.0 = Release|Win32
+		{3F9108A4-D764-49D0-8C87-B62E168AFF72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F9108A4-D764-49D0-8C87-B62E168AFF72}.Debug|Win32.Build.0 = Debug|Win32
+		{3F9108A4-D764-49D0-8C87-B62E168AFF72}.Release|Win32.ActiveCfg = Release|Win32
+		{3F9108A4-D764-49D0-8C87-B62E168AFF72}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
